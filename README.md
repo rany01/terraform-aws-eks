@@ -16,6 +16,9 @@ module "eks" {
     min_size        = 1
     instance_types  = ["t3.medium"]
 }
+
+```
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
