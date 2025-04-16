@@ -1,7 +1,7 @@
 # Este módulo cria um cluster EKS na AWS com um node group associado.
 
 module "eks" {
-  source = "github.com/seu-usuario/terraform-aws-eks?ref=v1.0.0"
+  source = "github.com/rany01/terraform-aws-eks?ref=v1.0.0"
 
   cluster_name    = "giropops-cluster"
   cluster_version = "1.21"
